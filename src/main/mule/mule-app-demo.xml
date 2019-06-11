@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<global-property doc:name="Global Property" doc:id="c0ce1f0c-2884-4487-a1d3-e8a1fe404605" name="http.port" value="8082" />
 	<flow name="mule-app-demoFlow" doc:id="e04ce2ac-34c4-4e38-8212-960e845a8358" >
 		<http:listener doc:name="Listener" doc:id="09aa8434-1ce4-4305-a219-6d571bb9713e" config-ref="HTTP_Listener_config" path="/muleAppDemo"/>
-		<set-payload value="Hello World through GIT to Jenkins!" doc:name="Set Payload" doc:id="69047e10-c4da-40ad-a094-14cee4770aee" />
+		<set-payload value="Hello World through GIT to Jenkins for DEPLOYMENT!" doc:name="Set Payload" doc:id="69047e10-c4da-40ad-a094-14cee4770aee" />
 	</flow>
 </mule>
