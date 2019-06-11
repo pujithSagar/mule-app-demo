@@ -13,7 +13,7 @@
 			<flow-ref doc:name="Flow-ref to mule-app-demoFlow" doc:id="1e769616-350b-4d5c-8772-442c4d078534" name="mule-app-demoFlow"/>
 		</munit:execution>
 		<munit:validation >
-			<munit-tools:assert-that doc:name="Assert that" doc:id="9d29e92f-b642-4de3-ba80-7a9a56ef951e" expression="#[payload]" is='#[MunitTools::equalTo("Hello World!")]'/>
+			<munit-tools:assert-that doc:name="Assert that" doc:id="9d29e92f-b642-4de3-ba80-7a9a56ef951e" expression="#[payload]" is='#[MunitTools::equalTo("Hello World through GIT to Jenkins!")]'/>
 		</munit:validation>
 	</munit:test>
 
